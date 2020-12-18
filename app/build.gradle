@@ -40,6 +40,7 @@ dependencies {
     implementation "org.koin:koin-core:$koin_version"
     implementation "org.koin:koin-android-ext:$koin_version"
     implementation "org.koin:koin-androidx-ext:$koin_version"
+    implementation "androidx.recyclerview:recyclerview1.1.0"
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
     implementation 'androidx.core:core-ktx:1.2.0'
     implementation 'androidx.appcompat:appcompat:1.1.0'
