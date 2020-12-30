@@ -1,19 +1,3 @@
-// TODO{
-    - UnitTest
-    - Add call/msg/mail buttons in contact detail page
-    - Search Bar
-    - Design
-    - Image list + details
-}
-
-
-
-
-
-
-
-
-
 # KotlinProject4A
 
 APPLICATION : Contacts
@@ -34,12 +18,12 @@ INSTRUCTIONS RESPECTED:
 
 FEATURES:
 
-    First Screen:
+   First Screen:
             
         -> Login Page: On this page you can sign in or sign up to the application.
                        If you try to connect with an inexistant user, a pop-up apperas to warn you.
                        If you successfully create a user, a pop-up appears to welcome you.
-                       If you try to create a user that already exists, an error pop-up appears. (checker peut être seulement le pseudo?)
+                       If you try to create a user that already exists, an error pop-up appears. 
                            
                Finally, if you log in successfully, a new Activity starts.
         
@@ -61,7 +45,7 @@ FEATURES:
 POSSIBLE FEATURES TO ADD: 
             
         - Modify contact details in the third screen
-        - A search bar in the Second Screen
-        - A better desgin
+        - A search bar in the Second Screen to search for a particular contact
+        - Upgrade the design
                                
     
