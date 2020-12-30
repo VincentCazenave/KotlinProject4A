@@ -14,9 +14,13 @@ INSTRUCTIONS RESPECTED:
         - Clean Architecture    
         - Design
         - Display an object details from the RecyclerView
-        - Search Barre ?
+        - Splash Screen
 
 FEATURES:
+
+   Splash Screen:
+   
+                       ![alt text](https://raw.githubusercontent.com/VincentCazenave/KotlinProject4A/master/SplashScreen.PNG)  
 
    First Screen:
             
