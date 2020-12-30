@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Presentation.Main.third.ContactDetail"
+    android:background="@color/grey"
+
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@+id/namedetail"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="40dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:id="@+id/namedetail"
+
+        />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_below="@+id/namedetail"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imagedetail"
+        />
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/imagedetail"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/roundbtn2"
+        android:elevation="8dp"
+        android:id="@+id/btnsection"
+
+        >
+
+            <ImageButton
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:layout_marginRight="30dp"
+                android:id="@+id/messagebtn"
+                android:src="@drawable/message"
+                android:scaleType="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/roundbtn"
+                >
+
+            </ImageButton>
+
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="30dp"
+            android:id="@+id/callbtn"
+            android:src="@drawable/telephone"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundbtn"
+
+            >
+
+        </ImageButton>
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:id="@+id/mailbtn"
+            android:src="@drawable/mail"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundbtn"
+
+            >
+
+        </ImageButton>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="230dp"
+        android:layout_below="@id/btnsection"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:elevation="8dp"
+        android:background="@drawable/roundbtn2"
+
+        >
+
+        <TextView
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/numberdetail"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:background="@drawable/roundbtn"
+            android:padding="10dp"
+            />
+
+        <TextView
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_below="@+id/numberdetail"
+            android:id="@+id/birthdatedetail"
+            android:layout_marginTop="25dp"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:padding="10dp"
+            android:background="@drawable/roundbtn"
+
+            />
+
+        <TextView
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_below="@+id/birthdatedetail"
+            android:id="@+id/maildetail"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:padding="10dp"
+            android:background="@drawable/roundbtn"
+
+            />
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

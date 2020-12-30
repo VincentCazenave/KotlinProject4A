@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">Kotlin</string>
+    <string name="app_name">Contact App</string>
+    <string name="detail">Contact Detail</string>
+    <string name="login">LOGIN PAGE</string>
+    <string name="username">Username</string>
+    <string name="mail">Mail</string>
+    <string name="password">Password</string>
+    <string name="create">New User</string>
+    <string name="loginbtn">Sign in</string>
+    <string name="design">Designed By Vincent Cazenave</string>
 </resources>
