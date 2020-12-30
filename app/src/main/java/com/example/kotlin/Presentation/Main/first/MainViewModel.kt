@@ -50,7 +50,7 @@ class MainViewModel(
 
             }
 
-            if(user == null){
+            if(user == null){  
                 createUser.invoke(User(username, password, mail))
             }
 
