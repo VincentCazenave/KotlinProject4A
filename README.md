@@ -75,5 +75,6 @@ POSSIBLE FEATURES TO ADD:
         - Modify contact details in the third screen
         - A search bar in the Second Screen to search for a particular contact
         - Upgrade the design
+        - Delete or add a new contact
                                
     
